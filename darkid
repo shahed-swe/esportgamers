@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/staticfiles/css/fontawesome.min.css">
+    <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/913039037755969626/913539290636632074/Favicon.png" type="image/webp">
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/913039037755969626/913539290636632074/Favicon.png" type="image/webp">
+    <title>Farhan Ashhab Nur | Zenetic Esports</title>
+    <meta name="description" content="Farhan Ashhab Nur (Darkid), Head Of Visuals, Zenetic Esports"/>
+    <meta name="keywords"  content="farhanashhabnur, farhan ashhab nur, farhan, nur, ashhab, farhanchowdhury, farhanashhabnur zenetic esports, darkidop, Darkid, Farhan ashhab nur chowdhury, graphic designer, creative designer, Visuals, soulzofbd esports, zeneticesports, level7ltd, nightsky discord network" />
+
+
+    <meta property="og:title" content="Farhan Ashhab Nur | Zenetic Esports"/>
+    <link rel="canonical" href="https://zeneticesports.com/darkidop"/>
+    <meta property="og:url" content="https://zeneticesports.com/darkid"/>
+    <meta property="og:description" content="Farhan Ashhab Nur (Darkid), Head Of Visuals, Zenetic Esports"/>
+    <meta property="og:image:secure_url" content="https://cdn.discordapp.com/attachments/908510976624721930/927485205504196628/a_d63e7daf8c9031f3911f610609956806.gif"/>
+    <meta property="og:image" content="https://cdn.discordapp.com/attachments/908510976624721930/927485205504196628/a_d63e7daf8c9031f3911f610609956806.gif"/>
+    <meta name="theme-color" content="#A7FF2D"/>
+    <meta property="profile:username" content="darkid"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="Farhan Ashhab Nur | Zenetic Esports"/>
+    <meta name="twitter:image" content="https://cdn.discordapp.com/attachments/908510976624721930/927485205504196628/a_d63e7daf8c9031f3911f610609956806.gif"/>
+    <meta name="twitter:url" content="https://zeneticesports.com/darkid"/>
+    <link rel="preload" as="image" href="https://cdn.discordapp.com/attachments/908510976624721930/927485205504196628/a_d63e7daf8c9031f3911f610609956806.gif" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://media.discordapp.net/attachments/872083425681604608/872083505289502780/darkid-logo-new.pn">
+    <!-- https://cdn.discordapp.com/attachments/908510976624721930/927485205504196628/a_d63e7daf8c9031f3911f610609956806.gif -->
+    <script src="/staticfiles/js/jquery-1.12.4.min.js"></script>
+    <script>
+
+        $(function(){
+    $(document).ready(function(){
+
+        function mousecursor() {
+    if ($("body")) {
+        const e = document.querySelector(".cursor-in"),
+            t = document.querySelector(".cursor-out");
+        let n, i = 0,
+            o = !1;
+        window.onmousemove = function (s) {
+            o || (t.style.transform = "translate(" + s.clientX + "px, " + s.clientY + "px)"), e.style.transform = "translate(" + s.clientX + "px, " + s.clientY + "px)", n = s.clientY, i = s.clientX
+        }, $("body").on("mouseenter", "img, a, .cursor-pointer", function () {
+            e.classList.add("cursor-pointer-hover"), t.classList.add("cursor-pointer-hover")
+        }), $("body").on("mouseleave", "img, a, .cursor-pointer", function () {
+            $(this).is("img, a") && $(this).closest(".cursor-pointer").length || (e.classList.remove("cursor-pointer-hover"), t.classList.remove("cursor-pointer-hover"))
+        }), e.style.visibility = "visible", t.style.visibility = "visible"
+    }
+};
+
+$(function () {
+    mousecursor();
+});
+
+    });
+
+});
+
+    </script>
+
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap"); /* Teko font */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0D0D0D;
+  font-family: "Teko", sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 0 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-bg {
+  position: absolute;
+  inset: 0;
+  min-height: 100vh;
+  background-image: url("https://cdn.discordapp.com/attachments/913929303861911582/913929377572593734/socials-bg.png");
+  opacity: 0.1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -2;
+}
+
+.card {
+  position: relative;
+  user-select: none;
+  max-width: 900px;
+  width: 100%;
+  height: 500px;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  background-color: #121212;
+  box-shadow: 2px 6px 6px 0px rgba(0, 0, 0, 0.336);
+  /* box-shadow: 4px 0px 8px 0px rgb(11, 11, 11); */
+  border-radius: 15px;
+  z-index: -2;
+  inset: 0;
+}
+.card::after {
+  content: "DARKID";
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  inset: 0;
+  color: #0D0D0D;
+}
+.profile-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.profile-img img {
+  width: 135px;
+  /*border-radius: 5%;*/
+  border : 2.2px solid #a7ff2d;
+  border-radius: 7px;
+  background-color: #a7ff2d;
+  background: solid;
+
+
+}
+
+.title-text {
+  display: flex;
+  font-size: 40px;
+  text-transform: uppercase;
+  line-height: 0.9;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin-top: 22px;
+}
+.title-text span {
+  color: #a7ff2d;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.gmail {
+  text-decoration: none;
+  display: flex;
+  font-size: 27px;
+  text-transform: lowercase;
+  line-height: 0.9;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(150, 150, 150);
+  margin-top: 20px;
+  letter-spacing: .7px;
+}
+
+
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 55px;
+  gap: 15px;
+}
+.social-icons a:hover {
+  background: #FFFFFF;
+}
+.social-icons a {
+  width: 40px;
+  height: 40px;
+  background: #a7ff2d;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.social-icons i {
+  color: #000;
+  font-size: 20px;
+}
+.logos {
+  display: flex;
+  justify-content: center;
+  margin-top: 27px;
+}
+.logos img {
+  width: 160px;
+}
+.hi-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.hi-img img {
+  width: 100px;
+}
+.card-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 340px;
+  text-transform: uppercase;
+  position: absolute;
+  inset: 0;
+}
+
+/* Cursor Css Start */
+
+body {
+  cursor: none;
+}
+
+.mouse-cursor {
+  position: fixed;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  border-radius: 50%;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  visibility: hidden;
+}
+
+.cursor-in {
+  margin-left: 2px;
+  margin-top: 2px;
+  width: 6px;
+  height: 6px;
+  z-index: 10000001;
+  background-color: #a7ff2d;
+  transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
+    margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  -webkit-transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
+    margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.cursor-in.cursor-pointer-hover {
+  margin-left: -40px;
+  margin-top: -40px;
+  width: 80px;
+  height: 80px;
+  background-color: #a7ff2d;
+  opacity: 0.3;
+}
+
+.cursor-out {
+  margin-left: -15px;
+  margin-top: -15px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #a7ff2d;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: 10000000;
+  opacity: 0.5;
+  -webkit-transition: all 0.08s ease-out;
+  transition: all 0.08s ease-out;
+}
+
+.cursor-out.cursor-pointer-hover {
+  opacity: 0;
+}
+
+/* Cursor Css End */
+
+
+/*Responsive Css Start*/
+@media (min-width:330px)
+{
+    .social-icons {
+        gap: 25px;
+    }
+}
+@media (min-width:400px)
+{
+    .card::after {
+        display: flex;
+        font-size: 175px;
+    }
+}
+
+@media (min-width:575px)
+{
+    .card::after {
+        font-size: 250px;
+    }
+}
+
+@media (min-width:775px)
+{
+    .card::after {
+        font-size: 340px;
+    }
+}
+/*Responsive Css Start*/
+</style>
+
+
+
+
+</head>
+<body>
+    <div class="main-bg"></div>
+    <div class="container">
+        <div class="card">
+            <div class="profile-img">
+                <img src="https://cdn.discordapp.com/attachments/908510976624721930/927485205504196628/a_d63e7daf8c9031f3911f610609956806.gif" alt="img not working">
+            </div>
+            <div class="title-text">
+                <p>Farhan Ashhab Nur</p>
+                <span>head of visuals</span>
+                <a href="mailto:farhanashhabnur@gmail.com" class="gmail">farhanashhabnur@gmail.com</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://instagram.com/darkidop" target="_blank" ><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/darkidop1" target="_blank" ><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.linkedin.com/in/farhanashhabnur/" target="_blank" ><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.youtube.com/channel/UChpLiQBcFxmUiNnm2_JMcwg" target="_blank" ><i class="fab fa-youtube"></i></a>
+                <a href="https://twitter.com/DarkidOp"><i class="fab fa-twitter" target="_blank" ></i></a>
+                <a href="https://discord.com/users/522340125380706314" target="_blank" ><i class="fab fa-discord"></i></a>              
+                <a href="https://www.snapchat.com/add/darkid_op" target="_blank" ><i class="fab fa-snapchat"></i></a>             
+                <a href="https://open.spotify.com/user/tb3szi3x8w2ce1c3736l9n4vw" target="_blank" ><i class="fab fa-spotify"></i></a>             
+                <a href="https://discord.com/invite/C5H6t8h" target="_blank" ><i class="fab fa-discord"></i></a>             
+            
+            </div>
+            <div class="logos">
+                <a href="/"><img src="images/Zen_logo.svg" alt="img not working"></a>
+            </div>
+            <div class="hi-img">
+                <img src="images/Zen_Charecter.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Cursor Part Start -->
+        
+    <div class="mouse-cursor cursor-out"></div>
+    <div class="mouse-cursor cursor-in"></div>
+    
+   <!-- Cursor Part End -->
+
+
+</body>
+</html>
